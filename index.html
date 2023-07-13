@@ -40,7 +40,7 @@
         <div class="container hero">
             <div class="row">
                 <div class="col-md-8 offset-md-2">
-                    <h1 class="text-center" data-aos="flip-up" data-aos-duration="3000" style="background-color:rgba(36,52,101,0.71);color:rgb(255,184,0);font-size:46px;">A Symphony of Experiences: Create Timeless Memories at our Hotel.<br></h1>
+                    <h1 class="text-center bounce" data-aos="flip-up" data-aos-duration="3000" style="background-color:rgba(36,52,101,0.71);color:rgb(255,184,0);font-size:46px;">A Symphony of Experiences: Create Timeless Memories at our Hotel.<br></h1>
                 </div>
             </div>
         </div>
@@ -81,7 +81,9 @@
                         </ul>
                     </div>
                     <div class="col-md-6 item text">
-                        <h3 style="color:rgb(255,184,0);">Davidson Family Hotel</h3>
+                        <h3
+
+ style="color:rgb(255,184,0);">Davidson Family Hotel</h3>
                         <p>We invite you to immerse yourself in the magic of our enchanting retreat, where every moment is crafted with care and dedication<br></p>
                     </div>
                     <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
@@ -98,6 +100,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
     <script src="assets/js/Simple-Slider.js"></script>
+    <script>
+        setInterval(function() {
+            $('.bounce').toggleClass('animated');
+        }, 2000);
+    </script>
 </body>
 
 </html>
